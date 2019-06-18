@@ -1,0 +1,929 @@
+/* Floating */
+.ui-float-right {
+  float: right !important;
+}
+
+.ui-float-left {
+  float: left !important;
+}
+
+/* Text Overflow */
+.truncate {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* Display */
+.display-inline {
+  display: inline !important;
+}
+
+/* Halves */
+.ui-width-1-1 {
+  width: 100% !important;
+}
+
+/* Halves */
+.ui-width-1-2 {
+  width: 50% !important;
+}
+
+/* Thirds */
+.ui-width-1-3 {
+  width: calc(100% * 1 / 3.001);
+}
+
+.ui-width-2-3 {
+  width: calc(100% * 2 / 3.001);
+}
+
+/* Quarters */
+.ui-width-1-4 {
+  width: 25% !important;
+}
+
+.ui-width-3-4 {
+  width: 75% !important;
+}
+
+/* Fifths */
+.ui-width-1-5 {
+  width: 20% !important;
+}
+
+.ui-width-2-5 {
+  width: 40% !important;
+}
+
+.ui-width-3-5 {
+  width: 60% !important;
+}
+
+.ui-width-4-5 {
+  width: 80% !important;
+}
+
+/* Sixths */
+.ui-width-1-6 {
+  width: calc(100% * 1 / 6.001);
+}
+
+.ui-width-5-6 {
+  width: calc(100% * 5 / 6.001);
+}
+
+/* Pixel */
+.ui-width-small {
+  width: 150px;
+}
+
+.ui-width-medium {
+  width: 300px;
+}
+
+.ui-width-large {
+  width: 450px;
+}
+
+.ui-width-xlarge {
+  width: 600px;
+}
+
+.ui-width-xxlarge {
+  width: 750px;
+}
+
+/* Auto */
+.ui-width-auto {
+  width: auto;
+}
+
+/* Expand */
+.ui-width-expand {
+  flex: 1;
+  min-width: 1px;
+}
+
+/* Expand */
+.ui-width-content {
+  width: fit-content !important;
+}
+
+/* Phone landscape and bigger */
+@media (min-width: 640px) {
+
+  /* Whole */
+  .ui-width-1-1\@s {
+    width: 100%;
+  }
+
+  /* Halves */
+  .ui-width-1-2\@s {
+    width: 50%;
+  }
+
+  /* Thirds */
+  .ui-width-1-3\@s {
+    width: calc(100% * 1 / 3.001);
+  }
+
+  .ui-width-2-3\@s {
+    width: calc(100% * 2 / 3.001);
+  }
+
+  /* Quarters */
+  .ui-width-1-4\@s {
+    width: 25%;
+  }
+
+  .ui-width-3-4\@s {
+    width: 75%;
+  }
+
+  /* Fifths */
+  .ui-width-1-5\@s {
+    width: 20%;
+  }
+
+  .ui-width-2-5\@s {
+    width: 40%;
+  }
+
+  .ui-width-3-5\@s {
+    width: 60%;
+  }
+
+  .ui-width-4-5\@s {
+    width: 80%;
+  }
+
+  /* Sixths */
+  .ui-width-1-6\@s {
+    width: calc(100% * 1 / 6.001);
+  }
+
+  .ui-width-5-6\@s {
+    width: calc(100% * 5 / 6.001);
+  }
+
+  /* Pixel */
+  .ui-width-small\@s {
+    width: 150px;
+  }
+
+  .ui-width-medium\@s {
+    width: 300px;
+  }
+
+  .ui-width-large\@s {
+    width: 450px;
+  }
+
+  .ui-width-xlarge\@s {
+    width: 600px;
+  }
+
+  .ui-width-xxlarge\@s {
+    width: 750px;
+  }
+
+  /* Auto */
+  .ui-width-auto\@s {
+    width: auto;
+  }
+
+  /* Expand */
+  .ui-width-expand\@s {
+    flex: 1;
+    min-width: 1px;
+  }
+}
+
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+
+  /* Whole */
+  .ui-width-1-1\@m {
+    width: 100%;
+  }
+
+  /* Halves */
+  .ui-width-1-2\@m {
+    width: 50%;
+  }
+
+  /* Thirds */
+  .ui-width-1-3\@m {
+    width: calc(100% * 1 / 3.001);
+  }
+
+  .ui-width-2-3\@m {
+    width: calc(100% * 2 / 3.001);
+  }
+
+  /* Quarters */
+  .ui-width-1-4\@m {
+    width: 25%;
+  }
+
+  .ui-width-3-4\@m {
+    width: 75%;
+  }
+
+  /* Fifths */
+  .ui-width-1-5\@m {
+    width: 20%;
+  }
+
+  .ui-width-2-5\@m {
+    width: 40%;
+  }
+
+  .ui-width-3-5\@m {
+    width: 60%;
+  }
+
+  .ui-width-4-5\@m {
+    width: 80%;
+  }
+
+  /* Sixths */
+  .ui-width-1-6\@m {
+    width: calc(100% * 1 / 6.001);
+  }
+
+  .ui-width-5-6\@m {
+    width: calc(100% * 5 / 6.001);
+  }
+
+  /* Pixel */
+  .ui-width-small\@m {
+    width: 150px;
+  }
+
+  .ui-width-medium\@m {
+    width: 300px;
+  }
+
+  .ui-width-large\@m {
+    width: 450px;
+  }
+
+  .ui-width-xlarge\@m {
+    width: 600px;
+  }
+
+  .ui-width-xxlarge\@m {
+    width: 750px;
+  }
+
+  /* Auto */
+  .ui-width-auto\@m {
+    width: auto;
+  }
+
+  /* Expand */
+  .ui-width-expand\@m {
+    flex: 1;
+    min-width: 1px;
+  }
+}
+
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+
+  /* Whole */
+  .ui-width-1-1\@l {
+    width: 100%;
+  }
+
+  /* Halves */
+  .ui-width-1-2\@l {
+    width: 50%;
+  }
+
+  /* Thirds */
+  .ui-width-1-3\@l {
+    width: calc(100% * 1 / 3.001);
+  }
+
+  .ui-width-2-3\@l {
+    width: calc(100% * 2 / 3.001);
+  }
+
+  /* Quarters */
+  .ui-width-1-4\@l {
+    width: 25%;
+  }
+
+  .ui-width-3-4\@l {
+    width: 75%;
+  }
+
+  /* Fifths */
+  .ui-width-1-5\@l {
+    width: 20%;
+  }
+
+  .ui-width-2-5\@l {
+    width: 40%;
+  }
+
+  .ui-width-3-5\@l {
+    width: 60%;
+  }
+
+  .ui-width-4-5\@l {
+    width: 80%;
+  }
+
+  /* Sixths */
+  .ui-width-1-6\@l {
+    width: calc(100% * 1 / 6.001);
+  }
+
+  .ui-width-5-6\@l {
+    width: calc(100% * 5 / 6.001);
+  }
+
+  /* Pixel */
+  .ui-width-small\@l {
+    width: 150px;
+  }
+
+  .ui-width-medium\@l {
+    width: 300px;
+  }
+
+  .ui-width-large\@l {
+    width: 450px;
+  }
+
+  .ui-width-xlarge\@l {
+    width: 600px;
+  }
+
+  .ui-width-xxlarge\@l {
+    width: 750px;
+  }
+
+  /* Auto */
+  .ui-width-auto\@l {
+    width: auto;
+  }
+
+  /* Expand */
+  .ui-width-expand\@l {
+    flex: 1;
+    min-width: 1px;
+  }
+}
+
+/* Large screen and bigger */
+@media (min-width: 1600px) {
+
+  /* Whole */
+  .ui-width-1-1\@xl {
+    width: 100%;
+  }
+
+  /* Halves */
+  .ui-width-1-2\@xl {
+    width: 50%;
+  }
+
+  /* Thirds */
+  .ui-width-1-3\@xl {
+    width: calc(100% * 1 / 3.001);
+  }
+
+  .ui-width-2-3\@xl {
+    width: calc(100% * 2 / 3.001);
+  }
+
+  /* Quarters */
+  .ui-width-1-4\@xl {
+    width: 25%;
+  }
+
+  .ui-width-3-4\@xl {
+    width: 75%;
+  }
+
+  /* Fifths */
+  .ui-width-1-5\@xl {
+    width: 20%;
+  }
+
+  .ui-width-2-5\@xl {
+    width: 40%;
+  }
+
+  .ui-width-3-5\@xl {
+    width: 60%;
+  }
+
+  .ui-width-4-5\@xl {
+    width: 80%;
+  }
+
+  /* Sixths */
+  .ui-width-1-6\@xl {
+    width: calc(100% * 1 / 6.001);
+  }
+
+  .ui-width-5-6\@xl {
+    width: calc(100% * 5 / 6.001);
+  }
+
+  /* Pixel */
+  .ui-width-small\@xl {
+    width: 150px;
+  }
+
+  .ui-width-medium\@xl {
+    width: 300px;
+  }
+
+  .ui-width-large\@xl {
+    width: 450px;
+  }
+
+  .ui-width-xlarge\@xl {
+    width: 600px;
+  }
+
+  .ui-width-xxlarge\@xl {
+    width: 750px;
+  }
+
+  /* Auto */
+  .ui-width-auto\@xl {
+    width: auto;
+  }
+
+  /* Expand */
+  .ui-width-expand\@xl {
+    flex: 1;
+    min-width: 1px;
+  }
+}
+
+/* ========================================================================
+   Component: Height
+ ========================================================================== */
+[class*='ui-height'] {
+  box-sizing: border-box;
+}
+
+/*
+ * Only works if parent element has a height set
+ */
+.ui-height-1-1 {
+  height: 100%;
+}
+
+/*
+ * Useful to create image teasers
+ */
+.ui-height-viewport {
+  min-height: 100vh;
+}
+
+/*
+ * Pixel
+ * Useful for `overflow: auto`
+ */
+.ui-height-small {
+  height: 150px;
+}
+
+.ui-height-medium {
+  height: 300px;
+}
+
+.ui-height-large {
+  height: 450px;
+}
+
+.ui-height-max-small {
+  max-height: 150px;
+}
+
+.ui-height-max-medium {
+  max-height: 300px;
+}
+
+.ui-height-max-large {
+  max-height: 450px;
+}
+
+/* ========================================================================
+   Component: Margin
+ ========================================================================== */
+/*
+ * Default
+ */
+.ui-margin {
+  margin-bottom: 20px;
+}
+
+*+.ui-margin {
+  margin-top: 20px !important;
+}
+
+.ui-margin-top {
+  margin-top: 20px !important;
+}
+
+.ui-margin-bottom {
+  margin-bottom: 20px !important;
+}
+
+.ui-margin-left {
+  margin-left: 20px !important;
+}
+
+.ui-margin-right {
+  margin-right: 20px !important;
+}
+
+/* Small
+ ========================================================================== */
+.ui-margin-small {
+  margin-bottom: 10px;
+}
+
+*+.ui-margin-small {
+  margin-top: 10px !important;
+}
+
+.ui-margin-small-top {
+  margin-top: 10px !important;
+}
+
+.ui-margin-small-bottom {
+  margin-bottom: 10px !important;
+}
+
+.ui-margin-small-left {
+  margin-left: 10px !important;
+}
+
+.ui-margin-small-right {
+  margin-right: 10px !important;
+}
+
+/* Medium
+ ========================================================================== */
+.ui-margin-medium {
+  margin-bottom: 40px;
+}
+
+*+.ui-margin-medium {
+  margin-top: 40px !important;
+}
+
+.ui-margin-medium-top {
+  margin-top: 40px !important;
+}
+
+.ui-margin-medium-bottom {
+  margin-bottom: 40px !important;
+}
+
+.ui-margin-medium-left {
+  margin-left: 40px !important;
+}
+
+.ui-margin-medium-right {
+  margin-right: 40px !important;
+}
+
+/* Large
+ ========================================================================== */
+.ui-margin-large {
+  margin-bottom: 40px;
+}
+
+*+.ui-margin-large {
+  margin-top: 40px !important;
+}
+
+.ui-margin-large-top {
+  margin-top: 40px !important;
+}
+
+.ui-margin-large-bottom {
+  margin-bottom: 40px !important;
+}
+
+.ui-margin-large-left {
+  margin-left: 40px !important;
+}
+
+.ui-margin-large-right {
+  margin-right: 40px !important;
+}
+
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+  .ui-margin-large {
+    margin-bottom: 70px;
+  }
+
+  *+.ui-margin-large {
+    margin-top: 70px !important;
+  }
+
+  .ui-margin-large-top {
+    margin-top: 70px !important;
+  }
+
+  .ui-margin-large-bottom {
+    margin-bottom: 70px !important;
+  }
+
+  .ui-margin-large-left {
+    margin-left: 70px !important;
+  }
+
+  .ui-margin-large-right {
+    margin-right: 70px !important;
+  }
+}
+
+/* XLarge
+ ========================================================================== */
+.ui-margin-xlarge {
+  margin-bottom: 70px;
+}
+
+*+.ui-margin-xlarge {
+  margin-top: 70px !important;
+}
+
+.ui-margin-xlarge-top {
+  margin-top: 70px !important;
+}
+
+.ui-margin-xlarge-bottom {
+  margin-bottom: 70px !important;
+}
+
+.ui-margin-xlarge-left {
+  margin-left: 70px !important;
+}
+
+.ui-margin-xlarge-right {
+  margin-right: 70px !important;
+}
+
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+  .ui-margin-xlarge {
+    margin-bottom: 140px;
+  }
+
+  *+.ui-margin-xlarge {
+    margin-top: 140px !important;
+  }
+
+  .ui-margin-xlarge-top {
+    margin-top: 140px !important;
+  }
+
+  .ui-margin-xlarge-bottom {
+    margin-bottom: 140px !important;
+  }
+
+  .ui-margin-xlarge-left {
+    margin-left: 140px !important;
+  }
+
+  .ui-margin-xlarge-right {
+    margin-right: 140px !important;
+  }
+}
+
+/* Remove
+ ========================================================================== */
+.ui-margin-remove {
+  margin: 0 !important;
+}
+
+.ui-margin-remove-top {
+  margin-top: 0 !important;
+}
+
+.ui-margin-remove-bottom {
+  margin-bottom: 0 !important;
+}
+
+.ui-margin-remove-left {
+  margin-left: 0 !important;
+}
+
+.ui-margin-remove-right {
+  margin-right: 0 !important;
+}
+
+.ui-margin-remove-vertical {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.ui-margin-remove-adjacent+* {
+  margin-top: 0 !important;
+}
+
+/* Auto
+ ========================================================================== */
+.ui-margin-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.ui-margin-auto-top {
+  margin-top: auto !important;
+}
+
+.ui-margin-auto-bottom {
+  margin-bottom: auto !important;
+}
+
+.ui-margin-auto-left {
+  margin-left: auto !important;
+}
+
+.ui-margin-auto-right {
+  margin-right: auto !important;
+}
+
+.ui-margin-auto-vertical {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+/* ========================================================================
+   Component: Padding
+ ========================================================================== */
+.ui-padding {
+  padding: 30px;
+}
+
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+  .ui-padding {
+    padding: 40px;
+  }
+}
+
+/* Small
+ ========================================================================== */
+.ui-padding-small {
+  padding: 15px;
+}
+
+/* Large
+ ========================================================================== */
+.ui-padding-large {
+  padding: 40px !important;
+}
+
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+  .ui-padding-large {
+    padding: 70px;
+  }
+}
+
+/* Remove
+ ========================================================================== */
+.ui-padding-remove {
+  padding: 0 !important;
+}
+
+.ui-padding-remove-top {
+  padding-top: 0 !important;
+}
+
+.ui-padding-remove-bottom {
+  padding-bottom: 0 !important;
+}
+
+.ui-padding-remove-left {
+  padding-left: 0 !important;
+}
+
+.ui-padding-remove-right {
+  padding-right: 0 !important;
+}
+
+.ui-padding-remove-vertical {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.ui-padding-remove-horizontal {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/* Alignment modifiers
+ ========================================================================== */
+.ui-text-left {
+  text-align: left !important;
+}
+
+.ui-text-right {
+  text-align: right !important;
+}
+
+.ui-text-center {
+  text-align: center !important;
+}
+
+.ui-text-justify {
+  text-align: justify !important;
+}
+
+/* Phone landscape and bigger */
+@media (min-width: 640px) {
+  .ui-text-left\@s {
+    text-align: left !important;
+  }
+
+  .ui-text-right\@s {
+    text-align: right !important;
+  }
+
+  .ui-text-center\@s {
+    text-align: center !important;
+  }
+}
+
+/* Tablet landscape and bigger */
+@media (min-width: 960px) {
+  .ui-text-left\@m {
+    text-align: left !important;
+  }
+
+  .ui-text-right\@m {
+    text-align: right !important;
+  }
+
+  .ui-text-center\@m {
+    text-align: center !important;
+  }
+}
+
+/* Desktop and bigger */
+@media (min-width: 1200px) {
+  .ui-text-left\@l {
+    text-align: left !important;
+  }
+
+  .ui-text-right\@l {
+    text-align: right !important;
+  }
+
+  .ui-text-center\@l {
+    text-align: center !important;
+  }
+}
+
+/* Large screen and bigger */
+@media (min-width: 1600px) {
+  .ui-text-left\@xl {
+    text-align: left !important;
+  }
+
+  .ui-text-right\@xl {
+    text-align: right !important;
+  }
+
+  .ui-text-center\@xl {
+    text-align: center !important;
+  }
+}
+
+/*
+ * Vertical
+ */
+.ui-text-top {
+  vertical-align: top !important;
+}
+
+.ui-text-middle {
+  vertical-align: middle !important;
+}
+
+.ui-text-bottom {
+  vertical-align: bottom !important;
+}
+
+.ui-text-baseline {
+  vertical-align: baseline !important;
+}
